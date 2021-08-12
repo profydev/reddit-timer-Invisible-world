@@ -1,10 +1,11 @@
 import React from 'react';
-import {GlobalStyle} from './GlobalStyle'
-import { Normalize } from 'styled-normalize';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { GlobalStyle } from './GlobalStyle'
+import { Normalize } from 'styled-normalize';
+
 function App() {
   return (
-    <div>
+    <div> 
       <Router>
       <Normalize/>
       <GlobalStyle/>
